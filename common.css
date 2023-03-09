@@ -1,0 +1,24 @@
+/* 태그들의 기본값을 초기화 내용
+공통으로 사용 할 스타일들 작성 */
+html, body{margin: 0; font-size: 16px;}
+h1,h2,h3,h4,p,figure{margin: 0;}
+ul,li{list-style-type: none; margin:0; padding: 0;}
+img{vertical-align: middle;}
+/* ㄴ사진 밑 여백 없앨때 */
+a{text-decoration: none;}
+table{border-collapse: collapse;}
+fieldset,legend{margin: 0; padding: 0;}
+input{}
+select{}
+textarea{}
+/* ㄴ 전부 margin이 들어 있음 */
+span,i,b,mark,sub,strong{display: inline-block;}
+/* ㄴinline요소라서 인라인블록으로 만들기 */
+
+*{
+    box-sizing: border-box;
+    color: #333;
+    font-size: 1rem;
+    /* ㄴrem은 곱하기, 문서의 최상위폰트 16일때 1rem이면 16x1 
+         em은 부모 폰트의 곱하기*/
+}
