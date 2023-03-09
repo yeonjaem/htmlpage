@@ -17,7 +17,7 @@ span,i,b,mark,sub,strong{display: inline-block;}
 
 *{
     box-sizing: border-box;
-    color: #333;
+    color: #fff;
     font-size: 1rem;
     /* ㄴrem은 곱하기, 문서의 최상위폰트 16일때 1rem이면 16x1 
          em은 부모 폰트의 곱하기*/
